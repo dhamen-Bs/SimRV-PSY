@@ -9,7 +9,31 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play SIM VR Script V1.</tw-noscript></noscript></tw-story>
-<tw-storydata name="SIM VR Script V1" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="BEB42231-9E19-42B5-9B3A-5854C7F754F5" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="PHASE1" color="yellow"></tw-tag><tw-tag name="PHASE2" color="orange"></tw-tag><tw-tag name="PHASE4" color="blue"></tw-tag><tw-tag name="PHASE3" color="green"></tw-tag><tw-tag name="ACCEUIL" color="red"></tw-tag><tw-tag name="PHASE5" color="red"></tw-tag><tw-tag name="P1R1" color="yellow"></tw-tag><tw-tag name="P3R3" color="green"></tw-tag><tw-tag name="P2R1" color="orange"></tw-tag><tw-tag name="P2R3" color="orange"></tw-tag><tw-tag name="P2R2" color="orange"></tw-tag><tw-tag name="P3R1" color="green"></tw-tag><tw-tag name="P1R2" color="yellow"></tw-tag><tw-tag name="P3R2" color="green"></tw-tag><tw-tag name="P1R3" color="yellow"></tw-tag><tw-tag name="P4R1" color="blue"></tw-tag><tw-tag name="P4R2" color="blue"></tw-tag><tw-tag name="P4R3" color="blue"></tw-tag><tw-tag name="PHASE6" color="purple"></tw-tag><tw-tag name="P6b" color="purple"></tw-tag><tw-tag name="P6a" color="purple"></tw-tag><tw-tag name="P6c" color="purple"></tw-tag><tw-tag name="P5R1" color="red"></tw-tag><tw-tag name="P5R2" color="red"></tw-tag><tw-tag name="P5R3" color="red"></tw-tag><tw-passagedata pid="1" name="Accueil tendu" tags="ACCEUIL" position="25,275" size="200,200">Médecin : Il est 20h, vous êtes médecin, seul,  aux urgences pédiatriques. Vous ouvrez la porte de la salle d&#39;attente et appelez : &quot;Madame/Monsieur X ? Venez, suivez-moi s&#39;il vous plaît&quot;. Alors que le parent/enfant X s&#39;avance, un autre parent/enfant Y surgit, visiblement en colère, et vous interpelle vivement.
+<tw-storydata name="SIM VR Script V1" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="BEB42231-9E19-42B5-9B3A-5854C7F754F5" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
+  background-color: #ffffff; /* Fond blanc pour économiser l'encre */
+  color: #000000;            /* Texte noir pour un contraste maximal */
+  font-size: 0.9em;          /* Réduit légèrement la taille du texte */
+  font-family: Arial, sans-serif;
+}
+
+tw-passage {
+  line-height: 1.4;          /* Améliore l'espacement des lignes */
+}
+
+/* Change la couleur des liens pour qu'ils soient lisibles sur fond blanc */
+tw-link {
+  color: #004a99;            /* Bleu Université Paris Cité */
+  font-weight: bold;
+}
+
+tw-link:hover {
+  color: #e30613;            /* Rouge UPC au survol */
+}
+
+/* Cache la barre latérale si nécessaire (les flèches de retour) */
+tw-sidebar {
+  display: none;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="PHASE1" color="yellow"></tw-tag><tw-tag name="PHASE2" color="orange"></tw-tag><tw-tag name="PHASE4" color="blue"></tw-tag><tw-tag name="PHASE3" color="green"></tw-tag><tw-tag name="ACCEUIL" color="red"></tw-tag><tw-tag name="PHASE5" color="red"></tw-tag><tw-tag name="P1R1" color="yellow"></tw-tag><tw-tag name="P3R3" color="green"></tw-tag><tw-tag name="P2R1" color="orange"></tw-tag><tw-tag name="P2R3" color="orange"></tw-tag><tw-tag name="P2R2" color="orange"></tw-tag><tw-tag name="P3R1" color="green"></tw-tag><tw-tag name="P1R2" color="yellow"></tw-tag><tw-tag name="P3R2" color="green"></tw-tag><tw-tag name="P1R3" color="yellow"></tw-tag><tw-tag name="P4R1" color="blue"></tw-tag><tw-tag name="P4R2" color="blue"></tw-tag><tw-tag name="P4R3" color="blue"></tw-tag><tw-tag name="PHASE6" color="purple"></tw-tag><tw-tag name="P6b" color="purple"></tw-tag><tw-tag name="P6a" color="purple"></tw-tag><tw-tag name="P6c" color="purple"></tw-tag><tw-tag name="P5R1" color="red"></tw-tag><tw-tag name="P5R2" color="red"></tw-tag><tw-tag name="P5R3" color="red"></tw-tag><tw-passagedata pid="1" name="Accueil tendu" tags="ACCEUIL" position="25,275" size="200,200">Médecin : Il est 20h, vous êtes médecin, seul,  aux urgences pédiatriques. Vous ouvrez la porte de la salle d&#39;attente et appelez : &quot;Madame/Monsieur X ? Venez, suivez-moi s&#39;il vous plaît&quot;. Alors que le parent/enfant X s&#39;avance, un autre parent/enfant Y surgit, visiblement en colère, et vous interpelle vivement.
 Enfant Y : il vomit et il a 40° de fièvre, fatigué ...
 Salle d&#39;attente : bondée, il fait chaud...
 Objectif immédiat du médecin : Tenir le flux et contrôler l’environnement
@@ -30,7 +54,7 @@ Choisissez le niveau d&#39;entraînement.
 [[Démarrer Phase 5-&gt;Phase 5 – Crise/Sécurisation. Sécurisation + renfort(èchec communication)]]
 
 [[Démarrer Phase 6-&gt;Phase 6 – Explication]]
-</tw-passagedata><tw-passagedata pid="2" name="Phase 1 –Surgissement agressif du Parent Y - Laboratoire relationnel" tags="PHASE1" position="250,25" size="200,100">Parent Y surgit pendant l’appel du parent/enfant  X, agressif verbalement
+(text-style:&quot;superscript&quot;)[Your Text Here]</tw-passagedata><tw-passagedata pid="2" name="Phase 1 –Surgissement agressif du Parent Y - Laboratoire relationnel" tags="PHASE1" position="250,25" size="200,100">Parent Y surgit pendant l’appel du parent/enfant  X, agressif verbalement
 
 &#39;&#39;Objectif immédiat&#39;&#39;
 Reprendre la main sur la situation et orienter  l’échange : alliance / parcours de soins  / cadrage
